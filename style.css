@@ -1,7 +1,18 @@
 @import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
 
+
 body {
 	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	font-size: 70%;
+	line-height: 1;
+	color: #333333;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat;
+	background-position: bottom;
 }
 
 
