@@ -3,7 +3,7 @@
 
 body {
 	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-	font-size: 70%;
+	font-size: 80%;
 	line-height: 1;
 	color: #333333;
 	background-color: #ffffff;
@@ -15,110 +15,49 @@ body {
 	background-position: bottom;
 }
 
-HTML CSSResult
-EDIT ON
-@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+button.on {
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
 }
 
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;
+
+
+button.off {
+
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #990000;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
 }
 
-.btn,
-a.btn,
-button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
-}
-
-.btn-wrap-pc-sp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  /*テスト表示用*/
-  max-width: 435px;
-  margin: 0 auto 20px;
-
-  -webkit-box-pack: justify;
-
-  -ms-flex-pack: justify;
-
-  justify-content: space-between;
-}
-
-a.btn-pc-sp {
-  line-height: 1.4;
-
-  width: 49.5%;
-  padding: 1.25rem 0;
-
-  color: #ffff;
-}
-
-a.btn-pc-sp--contact {
-  color: #fff;
-  background: #eb6100;
-}
-
-a.btn-pc-sp--off {
-  color: #fff;
-  background: #094;
-}
-
-.fa-position-right {
-  position: absolute;
-  top: calc(50% - 0.5em);
-  right: 1rem;
-}
-
-a.btn-pc-sp {
-  width: 49.5%;
-  padding-right: 1.5rem;
-
-  color: #ffff;
-}
-
-a.btn-pc-sp--contact {
-  color: #fff;
-}
-
-a.btn-pc-sp--contact.btn-pc-sp--2 {
-  border-bottom: 5px solid #d25600;
-  background: #eb6100;
-}
-
-a.btn-pc-sp--off.btn-pc-sp--2 {
-  border-bottom: 5px solid #008039;
-  background: #094;
-}
-
-a.btn-pc-sp .number {
-  font-size: 1.4rem;
-  letter-spacing: 0.05em;
-}
