@@ -6,14 +6,23 @@ body {
 	font-size: 80%;
 	line-height: 1;
 	color: #333333;
-	background-color: #ffffff;
+	background-color: #248;
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
-	background-image: url(images/bg.gif);
 	background-repeat: repeat;
 	background-position: bottom;
 }
+
+#title  {
+	font-size: 30px;
+	line-height: 20px;
+	padding-left: 30px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	color: #fff
+
+}
+
 
 button.on {
 
@@ -29,11 +38,11 @@ button.on {
  padding: 10px 30px;
 
 
- /* 背景色を濃い青色に指定 */
- background-color: #248;
+ /* 背景色を白色に指定 */
+ background-color: #fff;
 
- /* 文字色を白色に指定 */
- color: #fff;
+ /* 文字色を濃い青色に指定 */
+ color: #248;
 
 
 
@@ -78,11 +87,11 @@ button.off {
  padding: 10px 30px;
 
 
- /* 背景色を濃い青色に指定 */
- background-color: #248;
+ /* 背景色を白色に指定 */
+ background-color: #fff;
 
- /* 文字色を白色に指定 */
- color: #fff;
+ /* 文字色を濃い青色に指定 */
+ color: #248;
 
 
 
@@ -113,5 +122,21 @@ button.off:hover {
 }
 
 
+/*戻るボタン*/
 
+a.btn-radius-solid {
+  border: 1px solid #ccc;
+  background: #f1e767;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+  background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+  -webkit-box-shadow: inset 1px 1px 1px #fff;
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
+a.btn-radius-solid:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
+  background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+}
 
